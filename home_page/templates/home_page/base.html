@@ -4,11 +4,14 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Welcome to the Family!</title>
+		{% load staticfiles %}
+		<link rel='stylesheet' href="{% static 'css/home_page.css' %}" type='text/css'/>
 	</head>
 
 	<body class="body" style="color:white;background-color:#333333">
 		{% block content %}
 		{% endblock %}
+		<img src="{% static 'images/home_page/clever.gif' %}" class="image-center"/>
 	</body>
 
 </html>
