@@ -48,19 +48,19 @@
   background-image: url(../images/iceland_moss.jpg);
   animation-delay: 30s;
 }
-.cb-slideshow li:nth-child(6) span {
+.cb-slideshow li:nth-child(7) span {
   background-image: url(../images/germany_snail.jpg);
   animation-delay: 36s;
 }
-.cb-slideshow li:nth-child(6) span {
+.cb-slideshow li:nth-child(8) span {
   background-image: url(../images/iceland_lake.jpg);
   animation-delay: 42s;
 }
-.cb-slideshow li:nth-child(6) span {
+.cb-slideshow li:nth-child(9) span {
   background-image: url(../images/iceland_waterfall.jpg);
   animation-delay: 48s;
 }
-.cb-slideshow li:nth-child(6) span {
+.cb-slideshow li:nth-child(10) span {
   background-image: url(../images/iceland_shore.jpg);
   animation-delay: 54s;
 }
