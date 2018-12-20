@@ -23,7 +23,7 @@
   background-repeat: none;
   opacity: 0;
   z-index: 0;
-  animation: imageAnimation 60s linear infinite 0s;
+  animation: imageAnimation 48s linear infinite 0s;
 }
 .cb-slideshow li:nth-child(1) span {
   background-image: url(../images/iceland_coffee.jpg)
@@ -41,34 +41,26 @@
   animation-delay: 18s;
 }
 .cb-slideshow li:nth-child(5) span {
-  background-image: url(../images/germany_rainbow.jpg);
+  background-image: url(../images/iceland_moss.jpg);
   animation-delay: 24s;
 }
 .cb-slideshow li:nth-child(6) span {
-  background-image: url(../images/iceland_moss.jpg);
+  background-image: url(../images/iceland_lake.jpg);
   animation-delay: 30s;
 }
 .cb-slideshow li:nth-child(7) span {
-  background-image: url(../images/germany_snail.jpg);
+  background-image: url(../images/iceland_waterfall.jpg);
   animation-delay: 36s;
 }
 .cb-slideshow li:nth-child(8) span {
-  background-image: url(../images/iceland_lake.jpg);
-  animation-delay: 42s;
-}
-.cb-slideshow li:nth-child(9) span {
-  background-image: url(../images/iceland_waterfall.jpg);
-  animation-delay: 48s;
-}
-.cb-slideshow li:nth-child(10) span {
   background-image: url(../images/iceland_shore.jpg);
-  animation-delay: 54s;
+  animation-delay: 42s;
 }
 @keyframes imageAnimation {
   0% { opacity: 0; animation-timing-function: ease-in; }
   5% { opacity: 1; animation-timing-function: ease-out; }
-  11% { opacity: 1 }
-  15% { opacity: 0 }
+  13% { opacity: 1 }
+  18% { opacity: 0 }
   100% { opacity: 0 }
 }
 .no-cssanimations .cb-slideshow li span{
