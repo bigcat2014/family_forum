@@ -1,0 +1,5 @@
+# Don't track these folders
+**/images
+**/__pycache__
+settings.py
+*.sqlite3
